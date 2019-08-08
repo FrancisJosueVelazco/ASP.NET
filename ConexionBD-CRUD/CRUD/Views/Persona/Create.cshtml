@@ -1,0 +1,69 @@
+﻿@model Capa_Entidad.Persona
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Persona</legend>
+        
+        @*<div class="editor-label">
+            @Html.LabelFor(model => model.codigo)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.codigo)
+            @Html.ValidationMessageFor(model => model.codigo)
+        </div>*@
+        
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.nombres)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.nombres)
+            @Html.ValidationMessageFor(model => model.nombres)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.apellidos)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.apellidos)
+            @Html.ValidationMessageFor(model => model.apellidos)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.edad)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.edad)
+            @Html.ValidationMessageFor(model => model.edad)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.fecha)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.fecha)
+            @Html.ValidationMessageFor(model => model.fecha)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Capa_Entidad.Persona>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<link rel="stylesheet" href="~/Views/css/bootstrap.min.css" />
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table>
+    <tr>
+        <th>
+            Codigo
+        </th>
+        <th>
+            Nombres
+        </th>
+        <th>
+            Apellidos
+        </th>
+        <th>
+            Edad
+        </th>
+        <th>
+            Fecha
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.codigo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellidos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.edad)
+            </td>
+            <td>
+                @item.fecha.ToString("dd/mm/yyyy")
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.codigo }) |
+                @Html.ActionLink("Details", "Details", new { id = item.codigo/* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.codigo/* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+    }
+
+</table>
+<script src="~/Views/js/bootstrap.min.js"></script>
+<script src="~/Views/js/jquery-3-2-1.min.js"></script>
+<script src="~/Views/js/popper min.js"></script>

@@ -1,0 +1,16 @@
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.csprojResolveAssemblyReference.cache
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.dll
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Datos.dll
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Datos.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\bin\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.csprojAssemblyReference.cache
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.csproj.CoreCompileInputs.cache
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Datos\obj\Debug\Capa_Datos.csproj.CopyComplete

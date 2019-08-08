@@ -1,0 +1,50 @@
+﻿@model Capa_Entidad.Persona
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Persona</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.codigo)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.codigo)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.nombres)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.nombres)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.apellidos)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.apellidos)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.edad)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.edad)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.fecha)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.fecha)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.codigo/* id=Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

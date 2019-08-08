@@ -1,0 +1,10 @@
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.csprojResolveAssemblyReference.cache
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\evalencia\Desktop\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Entidad\bin\Debug\Capa_Entidad.dll
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Entidad\bin\Debug\Capa_Entidad.pdb
+C:\Users\fvelazco\Desktop\PRACT\ConexionBD-CRUD\Capa_Entidad\obj\Debug\Capa_Entidad.csproj.CoreCompileInputs.cache
